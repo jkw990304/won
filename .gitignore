@@ -1,0 +1,38 @@
+# Python virtual environment
+venv/
+.env
+.venv/
+ENV/
+env/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Jupyter / notebooks
+*.ipynb
+.ipynb_checkpoints/
+
+# Dataset, model, and experiment outputs
+data/
+models/
+runs/
+*.pt
+*.task
+*.onnx
+*.tflite
+*.weights
+*.bin
+*.npz
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
